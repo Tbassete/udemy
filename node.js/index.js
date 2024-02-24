@@ -4,3 +4,8 @@ fs.writeFile("messege.text", "hello from nodejs", (err)=>{//The function takes o
     if (err) throw err;//Inside the function, there's an if statement that checks if err exists and is not null or undefined.
     console.log("the file has been saved")
 })
+
+var generateName = require('sillyname');
+var sillyName = generateName();
+
+console.log(`o nome aleatorio é: ${sillyName}`)
