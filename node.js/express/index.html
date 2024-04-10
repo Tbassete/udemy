@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: lightpink;
+        }
+
+        h1{
+            color: white;
+            font-size: 200px;
+        }
+
+        section{
+
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .container{
+           padding: 10px;
+            display: grid;
+            grid-row: row;
+            margin-right: 0px;
+            
+        }
+
+        .container1{
+            border: inset 1px rgba(0, 0, 0, 0.486);
+            
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <div class="container1">
+                <form action="/submit" method="post">
+                    <div class="container">
+                        <label for="email">Email: <input type="email" name="email" id="email1"></label>
+                        <label for="password"> Password: <input type="password" name="password" id="password1"></label>
+                        <button>enviar</button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
