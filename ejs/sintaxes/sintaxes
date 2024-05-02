@@ -1,0 +1,11 @@
+<%= variaveis %> output
+
+<% console.log("hello") %> js execute;
+
+<%- <h1> hello </h1> %> render html;
+
+<%%  %%>  show <% or%>
+
+<%# this is a comment %>  stop execution;
+
+<%- include("<filename>") %>  insert another ejs file
